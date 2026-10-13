@@ -1,3 +1,23 @@
+# Fixproof
+
+> **Proposes accessibility fixes with an LLM and proves they work by rescanning.**
+
+This is a fork of [gerryglz/ada-remediation](https://github.com/gerryglz/ada-remediation) (MIT licence) by [Mohamed Jerbi](https://github.com/mohamedjerbi2506).
+The upstream tool scans pages with axe-core and produces human-readable findings and prompts.
+**Fixproof adds an AI layer** that takes those prompts, calls an LLM, applies the suggested fix to an isolated copy of the page, rescans, and reports whether the finding is gone.
+
+### What comes from upstream vs. what I added
+
+| Upstream (gerryglz/ada-remediation) | Fixproof (this fork) |
+|---|---|
+| Playwright + axe-core scanning | *(to be filled in as I go)* |
+| Finding grouping and fingerprinting | |
+| Remediation guidance and AI prompts | |
+| Terminal / JSON / HTML / SARIF reports | |
+| Dashboard UI | |
+
+---
+
 # ADA Remediation Assistant
 
 Find accessibility problems on a website, see exactly what failed, and get a concrete fix for each one. It runs on your computer; nothing is uploaded.

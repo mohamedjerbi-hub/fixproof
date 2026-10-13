@@ -20,3 +20,6 @@ docs/internal/
 .idea/
 .claude/
 *.tsbuildinfo
+
+# Fixproof: generated benchmark results (never commit)
+fixproof/results/
